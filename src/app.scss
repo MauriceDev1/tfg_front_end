@@ -1,0 +1,57 @@
+.icon-box {
+    min-width: 144px; // Equivalent of min-w-[160px]
+    width: 10.666667%; // Equivalent of w-1/6
+    padding: 0.5rem; // Equivalent of p-2
+    color:white;
+    .icon-container {
+        
+      width: 100%; // Equivalent of w-full
+      display: flex; // Equivalent of flex
+      height: 7rem; // Equivalent of h-28
+      border-radius: 0.3rem; // Equivalent of rounded
+  
+      .icon {
+        margin: auto;
+        font-size: x-large;
+      }
+    }
+
+    .label-container {
+      text-align: center; // Equivalent of text-center
+      margin-top: 0.40rem; // Equivalent of mt-3
+      color: black;
+      font-size: 1.00rem;
+    }
+  }
+
+  .home-container {
+    width: 100%; // Equivalent of w-full
+    padding-top: 0.75rem; // Equivalent of py-5
+  
+    .icon-boxes-container {
+      width: 67.666667%; // Equivalent of w-8/12
+      padding-top: 0.5rem; // Equivalent of py-2
+      border-top: 1px solid; // Equivalent of border-t
+      border-bottom: 1px solid; // Equivalent of border-b
+      border-color: #E4E7EB;
+      margin: auto; // Centering equivalent
+      display: flex; // Equivalent of flex
+      flex-wrap: wrap; // Equivalent of flex-wrap
+      justify-content: center; // Equivalent of justify-center
+    }
+
+    .icon-boxes-container a{
+        text-decoration: none;
+    }
+  }
+
+  @font-face {
+    font-family: 'YourFontName'; /* Choose a name for your font */
+    src: url('C:/Windows/Fonts/segoeui.ttf') format('truetype'); /* Adjust the path and format accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'YourFontName', sans-serif; /* Use the font-family in your styles */
+  }
