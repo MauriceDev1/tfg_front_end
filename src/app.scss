@@ -1,13 +1,13 @@
 .icon-box {
-    min-width: 144px; // Equivalent of min-w-[160px]
-    width: 10.666667%; // Equivalent of w-1/6
+    min-width: 221px; // Equivalent of min-w-[160px]
+    // width: 10.666667%; // Equivalent of w-1/6
     padding: 0.5rem; // Equivalent of p-2
     color:white;
     .icon-container {
         
       width: 100%; // Equivalent of w-full
       display: flex; // Equivalent of flex
-      height: 7rem; // Equivalent of h-28
+      height: 9rem; // Equivalent of h-28
       border-radius: 0.3rem; // Equivalent of rounded
   
       .icon {
@@ -29,7 +29,7 @@
     padding-top: 0.75rem; // Equivalent of py-5
   
     .icon-boxes-container {
-      width: 67.666667%; // Equivalent of w-8/12
+      width: 100%; // Equivalent of w-8/12
       padding-top: 2.5rem; // Equivalent of py-2
       padding-bottom: 1.40rem;
       border-top: 1px solid; // Equivalent of border-t
